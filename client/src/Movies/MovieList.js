@@ -18,7 +18,9 @@ function MovieDetails({ movie }) {
   //const { title, director, metascore, stars, id} = movie;
   
   return (
+    
     <Link to={`/movies/${movie.id}`}><MoviCard movie={movie}/></Link>
+    
   );
 }
 
